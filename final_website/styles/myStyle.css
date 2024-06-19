@@ -1,5 +1,37 @@
-﻿body {
+body {
     direction: rtl;
+    font-family: 'Dana Yad AlefAlefAlef';
+    font-size: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.row1, .row2 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .box a {
+        margin: 5px 0;
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+
 
  
